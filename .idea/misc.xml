@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/gruszka/Documents/Alarm-Clock/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/gruszka/Documents/Alarm-Clock/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/gruszka/Documents/Alarm-Clock/app/src/main/res/layout/activity_stoper.xml" value="0.11005434782608696" />
+        <entry key="..\:/Users/gruszka/Documents/Alarm-Clock/app/src/main/res/layout/activity_stopwatch.xml" value="0.18854166666666666" />
       </map>
     </option>
   </component>

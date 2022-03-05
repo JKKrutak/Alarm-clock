@@ -6,4 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".StopWatch">
 
+    <Button
+        android:id="@+id/startTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="22dp"
+        android:text="Start"
+        app:layout_constraintBottom_toTopOf="@+id/textTimer"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textTimer"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/stopTimer"
+        app:layout_constraintStart_toStartOf="@+id/startTimer"
+        app:layout_constraintTop_toBottomOf="@+id/stopTimer" />
+
+    <Button
+        android:id="@+id/stopTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="21dp"
+        android:text="Stop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

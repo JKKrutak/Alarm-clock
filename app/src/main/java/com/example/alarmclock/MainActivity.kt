@@ -12,19 +12,18 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-       // val executorService: ExecutorService = Executors.newFixedThreadPool(4)
-        val x = true
+
         val tempInstance = ShowCurrentTime()
         val editText = findViewById<TextView>(R.id.currentTime)
-        tempInstance.showCurrentTime(editText)
+
+        tempInstance.showCurrentTime(editText, AppCompatActivity())
 
         val stopWatchButton = findViewById<Button>(R.id.stopWatch)
         stopWatchButton.setOnClickListener(){
-            Thread({
                 val intent = Intent(this, StopWatch::class.java)
-                startActivity(intent)
-            }).start()
+                startActivity(intent) //Ten intent, to ogarnąć
         }
 
     }
 }
+
